@@ -40,7 +40,7 @@ function App(){
                 <img src={product.image} className="thumbnail" alt={product.description}/>
               </article>
             )   
-          }):(<p>API did not provided any product, try again.</p>)
+          }):(<p>API no retornado ningún producto, intentalo nuevamente.</p>)
         }
       </section>
     )
